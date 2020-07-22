@@ -174,7 +174,6 @@ button {
     display: inline-block;
     height: 15.5rem;
     width: 22rem;
-    max-width: 100%;
     border-radius: 0.2rem;
 }
 
@@ -295,7 +294,7 @@ button {
     }
 }
 @media only screen and (max-width: 600px) {
-    .sample {
+    .sample, .sample-gradient {
         width: 100%;
 
     }
