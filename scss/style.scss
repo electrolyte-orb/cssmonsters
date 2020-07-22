@@ -1,0 +1,300 @@
+$dark-black: #212121;
+$purple: #9C27B0;
+$purple-dark: #4A148C;
+$orange: #FF5722;
+$x-light: #F5F5F5;
+$light: #424242;
+$gray: #9E9E9E;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.transition {
+    transition: 0.5s;
+}
+.color-w {
+    color: white;
+}
+body {
+    @extend .gradient;
+    @extend .full-height;
+    @extend .color-w;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+button {
+    display: inline-flex;
+    align-items: center;
+
+    i {
+        font-size: 32px;
+    }
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+.full-height {
+    min-height: 100vh;
+}
+.space-right {
+    margin-right: 0.2rem;
+}
+.header, .contents, .footer, .pad-1 {
+    padding: 1rem;
+}
+.gradient {
+    background: linear-gradient(45deg,orange, crimson);
+}
+
+.header {
+    @extend .footer;
+    padding: 1.5rem 1rem;
+    h1 {        
+        @extend .gradient;
+        color: transparent;
+        -webkit-background-clip: text;
+        display: inline-block;
+        font-weight: 300;
+        font-size: 4rem;
+        a {
+            text-decoration: none;
+        }
+    }
+
+
+}
+.contents {
+    @extend .full-height;
+    h1 {
+        margin: 1rem 0;
+    }
+}
+.sample {
+    @extend .gradient;
+    @extend .transition;
+
+    box-shadow: 0 0 10px $gray;
+    border-radius: 0.5rem;
+    display: inline-block;
+    height: 18rem;
+    width: 30rem;
+    position: relative;
+    margin: 0.5rem 0;
+    .dummy {
+        @extend .gradient;
+        display: inline-block;
+        width: 40%;
+        height: 30px;
+        margin: 10px;
+        border-radius: 10rem;
+    }
+
+    .sample-h {
+        display: block;
+        height: 50px;
+        width: 100%;
+        border-radius: 0.5rem 0.5rem 0 0;
+        background: $dark-black;
+    }
+    .sample-f {
+        @extend .sample-h;
+        border-radius: 0 0 0.5rem 0.5rem;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        .sample-b {
+            display: inline-block;
+            border: 2px solid orangered;
+            height: 20px;
+            width: 40px;
+            margin: 0 10px;
+            border-radius: 10rem;
+            &:nth-child(2) {
+                width: 50px;
+                margin: 0 2px;
+            }
+            &:nth-child(3) {
+                width: 35px;
+            }
+        }
+    }
+    .sample-c {
+        width: 100%;
+        .dummy {
+            background: white;
+            display: block;
+            width: unset;
+            height: 30px;
+
+            &:nth-child(1) {
+                width: 50%;
+
+            }
+        }
+
+        .para {
+            height: 20px;
+            opacity: 0.5;
+        }
+
+    }
+}
+.sample2 {
+    background: $dark-black;
+
+    .sample-h,.sample-f {
+        background: $light;
+    }
+}
+.sample3 {
+    background: $x-light;
+
+    .sample-h,.sample-f {
+        background: $light;
+    }
+
+    .sample-c .dummy {
+        background: $dark-black;
+    }
+}
+
+.sample-gradient {
+    background: linear-gradient(45deg, $purple , $purple-dark, $orange);
+    background-size: 400% 400%;
+    animation: fadin 4s ease-in-out infinite alternate-reverse;
+    display: inline-block;
+    height: 15.5rem;
+    width: 22rem;
+
+    border-radius: 0.2rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+
+    .card {
+        max-width: 30%;
+        display: inline-block;
+
+    }
+}
+.cards-pro {
+    .card {
+        @extend .color-w;
+        background: $purple-dark;
+        
+    }
+    .cpro button {
+        background: $orange;
+        @extend .color-w;
+    }
+    .cult button {
+        background: $purple;
+        @extend .color-w;
+    }
+}
+.card {
+    padding: 2rem;
+    background: white;
+    color: $dark-black;
+    margin: 0.5rem;
+    overflow-wrap: break-word;
+    border-radius: 0.5rem;
+    p {
+        margin: 0.2rem 0;
+    }
+    button {
+        padding: 1rem;
+        margin: 0.8rem 0;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+    }
+}
+
+.cfree button {
+    background: gray;
+    @extend .color-w;
+}
+.cpro button {
+    background: red;
+    @extend .color-w;
+}
+.cult button {
+    background: purple;
+    @extend .color-w;
+}
+
+.footer {
+    background: $dark-black;
+    button {
+        @extend .pad-1;
+
+        background: none;
+        border: 0;
+        outline: 0;
+        color: inherit;
+        border: 5px solid;
+        border-color: black;
+        font-size: 18px;
+        transition: .5s;
+        cursor: pointer;
+        min-width: 2rem;
+        margin: 0.5rem 0;
+
+        &:hover {
+            border-color: orangered;
+        }
+
+    }
+}
+.table {
+    display: flex;
+    .sample {
+        margin: 0.2rem;
+    }
+}
+@keyframes fadin {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+
+//making the page responsive
+
+@media only screen and (max-width:800px) {
+    .cards {
+        display: block;
+        .card {
+            max-width: 100%;
+            display: block;
+        }
+    }
+    .table {
+        display: block;
+    }
+    .sample {
+        width: 75%;
+    }
+    .footer button {
+        display: block;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .sample {
+        width: 100%;
+
+    }
+}
