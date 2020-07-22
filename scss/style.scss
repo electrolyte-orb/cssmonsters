@@ -295,6 +295,9 @@ button {
     }
 }
 @media only screen and (max-width: 600px) {
+    .sample {
+        margin: 0.2rem 0 !important;
+    }
     .sample, .sample-gradient {
         width: 100%;
 
