@@ -284,6 +284,9 @@ button {
     }
     .table {
         display: block;
+        .sample {
+            margin: unset;
+        }
     }
     .sample {
         width: 75%;
