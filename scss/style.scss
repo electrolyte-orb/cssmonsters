@@ -51,7 +51,7 @@ button {
     padding: 1rem;
 }
 .gradient {
-    background: linear-gradient(45deg,orange, crimson);
+    background: linear-gradient(45deg,#ffa500, #dc143c);
 }
 
 .header {
@@ -168,6 +168,7 @@ button {
 }
 
 .sample-gradient {
+    @extend .transition;
     background: linear-gradient(45deg, $purple , $purple-dark, $orange);
     background-size: 400% 400%;
     animation: fadin 4s ease-in-out infinite alternate-reverse;
