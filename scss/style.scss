@@ -221,6 +221,9 @@ button {
     border-radius: 0.5rem;
     p {
         margin: 0.2rem 0;
+        a {
+            text-decoration: dashed;
+        }
     }
     button {
         padding: 1rem;
@@ -233,7 +236,6 @@ button {
     }
 
     a {
-        text-decoration: underline;
         color: $orange;
     }
 }

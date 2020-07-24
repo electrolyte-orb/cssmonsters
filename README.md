@@ -10,3 +10,8 @@ SCSS hacks for beginners.
 ![](/images/screenshot.jpg)
 ---
 ![](/images/ui.jpg)
+Clean and simple UI tutorials. Absolutely Free! 
+
+## Languages included:
+HTML
+
