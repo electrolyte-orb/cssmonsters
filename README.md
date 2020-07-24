@@ -14,12 +14,12 @@ We focus really hard to optimise everything for speed and performance. Also with
 
 ![Visual Studio Code](/images/screenshot.jpg)
 
-[Learn CSS](#)
+[Learn CSS](https://github.com/electrolyte-orb/cssmonsters#css-monsters)
 
 ## JS
 You can learn JS from begenning of everything.
 
-[Learn JS](#)
+[Learn JS](https://github.com/electrolyte-orb/cssmonsters#css-monsters)
 
 ## ⚠ WEBSITE IS STILL IN CONSTRUCTION
 <img src="https://www.oracle.com/a/ocom/img/duke-master-2020-globe.png" height="32px"> stay cool while we work!
