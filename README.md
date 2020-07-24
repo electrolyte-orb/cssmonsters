@@ -1,5 +1,5 @@
-[![](/logo.svg)](https://electrolyte-orb.github.io/cssmonsters/)
-# CSS Monsters
+
+# <img src="./logo.svg" height="32px"> CSS Monsters
 ![Thumbnail](./thumb.jpg)
 ---
 SCSS hacks for beginners.
