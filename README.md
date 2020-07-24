@@ -1,5 +1,5 @@
 
-# <img src="./logo.svg" height="32px"> CSS Monsters
+# [<img src="./logo.svg" height="32px"> CSS Monsters](https://electrolyte-orb.github.io/cssmonsters/)
 ![Thumbnail](./thumb.jpg)
 ---
 SCSS hacks for beginners.
@@ -8,3 +8,5 @@ SCSS hacks for beginners.
 ## Fully Optimised Code for faster rendering
 
 ![](/images/screenshot.jpg)
+---
+![](/images/ui.jpg)
