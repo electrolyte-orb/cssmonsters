@@ -20,3 +20,5 @@ We focus really hard to optimise everything for speed and performance. Also with
 You can learn JS from begenning of everything.
 
 [Learn JS](#)
+
+## ⚠ WEBSITE IS STILL IN CONSTRUCTION
