@@ -16,6 +16,10 @@ $gray: #9E9E9E;
 pre *, code, code * {
     font-family: "Fira Code Retina", monospace !important;
 }
+// this page is open source
+html {
+    scroll-behavior: smooth;
+}
 .transition {
     transition: 0.5s;
 }
