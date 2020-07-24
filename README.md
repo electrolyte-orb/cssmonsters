@@ -22,3 +22,4 @@ You can learn JS from begenning of everything.
 [Learn JS](#)
 
 ## ⚠ WEBSITE IS STILL IN CONSTRUCTION
+<img src="https://www.oracle.com/a/ocom/img/duke-master-2020-globe.png" height="32px"> stay cool while we work!
