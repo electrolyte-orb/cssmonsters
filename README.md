@@ -13,5 +13,14 @@ SCSS hacks for beginners.
 Clean and simple UI tutorials. Absolutely Free! 
 
 ## Languages included:
-HTML
+* HTML
+* styling languages
+    * SASS
+    * CSS
+* javascript
+
+# SATISFY YOUR OWN HUNGER
+> IF MY SITE IS NOT FLAWLESS TO YOU, THEN IT'S NOT!
+>
+> IF YOU THINK THAT ANY SITE IS FLAWLESS TO YOU THEN IT IS!
 
